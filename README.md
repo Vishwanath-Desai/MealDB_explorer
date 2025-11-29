@@ -28,5 +28,3 @@ Open the frontend dev URL (usually http://localhost:5173) and the backend runs b
 Notes
 - Backend caches API responses in-memory using an LRU cache. Configure with the `.env` values.
 - The app uses TheMealDB test key `1` by default.
-
-If you'd like, I can also add a root `package.json` with a `concurrently` script to start both servers together.
